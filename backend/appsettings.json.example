@@ -1,0 +1,18 @@
+{
+  "_comentario": "Plantilla de configuración. Copia este archivo como appsettings.json y completa los valores reales. Ese archivo contiene credenciales y no se sube al repositorio (ver .gitignore).",
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost,1433;Database=Crono;User Id=sa;TU_PASSWORD;TrustServerCertificate=True;"
+  },
+  "Jwt": {
+    "Key": "cadena-de-al-menos-32-caracteres-aleatoria-y-secreta",
+    "Issuer": "CronoApi",
+    "Audience": "CronoClient"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}

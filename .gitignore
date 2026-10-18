@@ -1,0 +1,40 @@
+# Dependencias y artefactos de build
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Compilación de .NET
+backend/bin/
+backend/obj/
+*.user
+*.suo
+.vs/
+
+# Registros locales
+*.log
+dev-output.log
+npm-debug.log*
+
+# ----------------------------------------------------------
+# Configuración con credenciales. NO SE SUBE AL REPOSITORIO.
+# Crea este archivo a partir de appsettings.json.example.
+# ----------------------------------------------------------
+backend/appsettings.json
+backend/appsettings.Development.json
+
+# ----------------------------------------------------------
+# Documentación interna y datos de negocio de Crono.
+# Contiene especificaciones internas y datos de contacto reales;
+# no se publica en un repositorio abierto.
+# ----------------------------------------------------------
+instrucciones/
+AGENTS.md
+.opencode-rules.md
+.opencode/
+crono-instrucciones-consolidadas.md
+crono-instrucciones-prod.md
+CRONO-fase1-auditoria-y-propuesta.md
+
+# Sistema
+.DS_Store
+Thumbs.db
