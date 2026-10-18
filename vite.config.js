@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/CRONO/', // <-- Agrega esta línea
   // Ruta base. Con un valor relativo la misma build funciona en local y en
   // alojamientos estáticos como GitHub Pages, sin conocer el nombre del repositorio.
   base: process.env.VITE_BASE || './',
